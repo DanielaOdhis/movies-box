@@ -1,0 +1,18 @@
+body {
+	background: lavender;
+	color: black;
+}
+.movie-app {
+  padding: 20px;
+}
+
+.image-container {
+  width: 30%; /* Set the width of each image container to 30% of the parent container */
+  margin-right: 10px; /* Add margin between images */
+  margin-bottom: 10px; /* Add margin between rows */
+}
+
+/* Clear the margin for every third image to start a new row */
+.image-container:nth-child(3n) {
+  margin-right: 0;
+}
